@@ -1,0 +1,12 @@
+name: LanguageAPI
+version: "1.0"
+main: de.enderkatze.languageapi.LanguageAPIPlugin
+api-version: 1.16
+prefix: LanguageAPI
+authors: [ EnderKatze ]
+description: An api to help your plugin support multiple languages
+commands:
+  language:
+    usage: /<command>
+    description: Manage your server's language
+    permission: minecraft.op

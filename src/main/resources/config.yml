@@ -1,0 +1,5 @@
+# This bool doesn't anything yet
+global: true
+
+# The language the server is going to use
+serverLanguage: "en_us"
