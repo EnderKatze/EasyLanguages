@@ -1,8 +1,8 @@
-name: LanguageAPI
+name: EasyLanguages
 version: "1.0"
-main: de.enderkatze.languageapi.LanguageAPIPlugin
+main: de.enderkatze.easylanguages.EasyLanguagesPlugin
 api-version: 1.16
-prefix: LanguageAPI
+prefix: EasyLanguages
 authors: [ EnderKatze ]
 description: An api to help your plugin support multiple languages
 commands:

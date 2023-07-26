@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.enderkatze</groupId>
-    <artifactId>languageapi</artifactId>
+    <artifactId>easylanguages</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>LanguageAPI</name>
+    <name>EasyLanguages</name>
 
-    <description>An api to help your plugin support multiple languages</description>
+    <description>A plugin to help your plugin support multiple languages</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
