@@ -1,1 +1,6 @@
 languageFileNull: "Sprachdatei konnte nicht gefunden werden: "
+
+updateChecker:
+  update: "Ein neues Update ist verfügbar"
+  noUpdate: "Kein Update verfügbar"
+  unableToCheck: "Konnte nicht nach Updates suchen: "

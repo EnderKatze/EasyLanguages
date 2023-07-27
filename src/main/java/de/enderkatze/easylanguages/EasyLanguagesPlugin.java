@@ -1,5 +1,6 @@
 package de.enderkatze.easylanguages;
 
+import de.enderkatze.easylanguages.utils.UpdateChecker;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class EasyLanguagesPlugin extends JavaPlugin {
@@ -24,9 +25,22 @@ public final class EasyLanguagesPlugin extends JavaPlugin {
         instance = this;
     }
 
+    public boolean updateAvailable;
+
     @Override
     public void onEnable() {
         // Plugin startup logic
+
+        new UpdateChecker(this, 104380).getVersion(version -> {
+            if (this.getDescription().getVersion().equals(version)) {
+                getLogger().info(EasyLanguages.GetServerLanguage(this).getString("updateChecker.noUpdate"));
+                updateAvailable = false;
+            } else {
+                getLogger().info(EasyLanguages.GetServerLanguage(this).getString("updateChecker.update"));
+                updateAvailable = true;
+
+            }
+        });
 
         saveDefaultConfig();
 

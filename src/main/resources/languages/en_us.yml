@@ -1,1 +1,6 @@
 languageFileNull: "Couldn't find language file: "
+
+updateChecker:
+  update: "There's a new update available"
+  noUpdate: "No update available"
+  unableToCheck: "Couldn't check for updates: "
