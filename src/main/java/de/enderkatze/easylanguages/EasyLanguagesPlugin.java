@@ -31,7 +31,7 @@ public final class EasyLanguagesPlugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
 
-        new UpdateChecker(this, 104380).getVersion(version -> {
+        new UpdateChecker(this, 111556).getVersion(version -> {
             if (this.getDescription().getVersion().equals(version)) {
                 getLogger().info(EasyLanguages.GetServerLanguage(this).getString("updateChecker.noUpdate"));
                 updateAvailable = false;
