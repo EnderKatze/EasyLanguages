@@ -19,7 +19,6 @@ public final class EasyLanguagesPlugin extends JavaPlugin {
     public static EasyLanguagesPlugin getInstance() {return instance;}
 
 
-
     @Override
     public void onLoad() {
         instance = this;

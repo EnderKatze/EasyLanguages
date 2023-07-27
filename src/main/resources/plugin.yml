@@ -1,12 +1,7 @@
 name: EasyLanguages
-version: "1.0"
+version: "0.1"
 main: de.enderkatze.easylanguages.EasyLanguagesPlugin
 api-version: 1.16
 prefix: EasyLanguages
 authors: [ EnderKatze ]
 description: An api to help your plugin support multiple languages
-commands:
-  language:
-    usage: /<command>
-    description: Manage your server's language
-    permission: minecraft.op
