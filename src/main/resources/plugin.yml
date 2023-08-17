@@ -1,7 +1,6 @@
 name: EasyLanguages
-version: "0.1"
+version: "0.2"
 main: de.enderkatze.easylanguages.EasyLanguagesPlugin
-api-version: 1.16
 prefix: EasyLanguages
 authors: [ EnderKatze ]
 description: An api to help your plugin support multiple languages

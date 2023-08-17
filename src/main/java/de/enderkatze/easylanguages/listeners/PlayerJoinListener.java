@@ -13,7 +13,7 @@ public class PlayerJoinListener implements Listener {
 
         if(event.getPlayer().isOp() && EasyLanguagesPlugin.getInstance().updateAvailable) {
 
-            event.getPlayer().sendMessage("[EasyLanguages] " + EasyLanguages.GetServerLanguage(EasyLanguagesPlugin.getInstance()).getString("updateChecker.update"));
+            event.getPlayer().sendMessage("[EasyLanguages] Update available!");
         }
     }
 }
